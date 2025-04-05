@@ -1,8 +1,10 @@
+import NavbarMain from "./components/Navbar/NavbarMain";
+
 function App() {
 	return (
-		<>
-			<div className="text-2xl text-white">Hello</div>
-		</>
+		<main className="font-body">
+			<NavbarMain />
+		</main>
 	);
 }
 
