@@ -3,6 +3,9 @@ import HeroGradient from "./components/Hero/HeroGradient";
 import HeroMain from "./components/Hero/HeroMain";
 import HeroSlogan from "./components/Hero/HeroSlogan";
 import NavbarMain from "./components/Navbar/NavbarMain";
+import SkillsMain from "./components/Skills/SkillsMain";
+import HelperSection from "./components/HelperSection";
+import SubSkills from "./components/Skills/SubSkills";
 
 function App() {
 	return (
@@ -12,6 +15,9 @@ function App() {
 			<HeroGradient />
 			<HeroSlogan />
 			<AboutMeMain />
+			<SkillsMain />
+			<SubSkills />
+			<HelperSection />
 		</main>
 	);
 }
