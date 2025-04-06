@@ -4,8 +4,6 @@
 
 [https://www.youtube.com/watch?v=hw4bzV9Uu7A]
 
-50:00
-
 # Resource :
 
 - Tailwind: [https://v3.tailwindcss.com/docs/guides/vite]

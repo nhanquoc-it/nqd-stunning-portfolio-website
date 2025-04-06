@@ -1,3 +1,4 @@
+import AboutMeMain from "./components/AboutMe/AboutMeMain";
 import HeroGradient from "./components/Hero/HeroGradient";
 import HeroMain from "./components/Hero/HeroMain";
 import HeroSlogan from "./components/Hero/HeroSlogan";
@@ -10,6 +11,7 @@ function App() {
 			<HeroMain />
 			<HeroGradient />
 			<HeroSlogan />
+			<AboutMeMain />
 		</main>
 	);
 }
