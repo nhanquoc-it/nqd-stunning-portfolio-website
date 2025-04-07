@@ -6,6 +6,7 @@ import NavbarMain from "./components/Navbar/NavbarMain";
 import SkillsMain from "./components/Skills/SkillsMain";
 import HelperSection from "./components/HelperSection";
 import SubSkills from "./components/Skills/SubSkills";
+import ExperienceMain from "./components/Experience/ExperienceMain";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<AboutMeMain />
 			<SkillsMain />
 			<SubSkills />
+			<ExperienceMain />
 			<HelperSection />
 		</main>
 	);
