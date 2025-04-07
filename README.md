@@ -13,3 +13,4 @@
 - Framer Motion: [https://www.framer.com/motion/]
 - React Icons: [https://react-icons.github.io/react-icons/]
 - EmailJS : [https://www.emailjs.com/docs/sdk/installation/]
+- React Scroll : [https://www.npmjs.com/package/react-scroll]

@@ -35,7 +35,7 @@ const projects = [
 
 const ProjectMain = () => {
 	return (
-		<div>
+		<div id="project">
 			<ProjectText />
 			<div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
 				{projects.map((project, index) => {

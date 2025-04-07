@@ -4,11 +4,11 @@ import HeroMain from "./components/Hero/HeroMain";
 import HeroSlogan from "./components/Hero/HeroSlogan";
 import NavbarMain from "./components/Navbar/NavbarMain";
 import SkillsMain from "./components/Skills/SkillsMain";
-import HelperSection from "./components/HelperSection";
 import SubSkills from "./components/Skills/SubSkills";
 import ExperienceMain from "./components/Experience/ExperienceMain";
 import ProjectMain from "./components/Projects/ProjectMain";
 import ContactMeMain from "./components/Contact/ContactMeMain";
+import FooterMain from "./components/Footer/FooterMain";
 
 function App() {
 	return (
@@ -23,7 +23,7 @@ function App() {
 			<ExperienceMain />
 			<ProjectMain />
 			<ContactMeMain />
-			<HelperSection />
+			<FooterMain />
 		</main>
 	);
 }
