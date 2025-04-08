@@ -3,7 +3,6 @@ import { FaArrowRight } from "react-icons/fa";
 import { motion } from "motion/react";
 import { fadeIn } from "../../frame-motion/variants";
 import SingleExperience from "./SingleExperience";
-import { div } from "motion/react-client";
 
 const experiences = [
 	{

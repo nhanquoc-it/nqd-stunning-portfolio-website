@@ -30,8 +30,10 @@ const HeroText = () => {
 				viewport={{ once: false, amount: 0 }}
 				className="text-lg mt-4 text-white"
 			>
-				A Passionate Web Developer and Instructor <br />
-				with 2 years of experience.
+				Hi, I'm Quoc, a web developer with a passion for creativity and problem
+				solving.
+				<br />I specialize in React and Front-end, always looking for ways to
+				optimize user experience.
 			</motion.p>
 		</div>
 	);
