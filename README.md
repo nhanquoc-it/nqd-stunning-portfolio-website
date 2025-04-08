@@ -1,8 +1,10 @@
 # Build A Stunning Portfolio Website :
 
-# Link Youtube :
+# Technologies use :
 
-[https://www.youtube.com/watch?v=hw4bzV9Uu7A]
+- Tailwindcss : 3.4.17
+- React : 19.0.0
+- Framer Motion : 12.6.3
 
 # Resource :
 

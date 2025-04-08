@@ -2,6 +2,9 @@ import React from "react";
 import ProjectText from "./ProjectText";
 import SingleProject from "./SingleProject";
 
+import { motion } from "motion/react";
+import { fadeIn } from "../../frame-motion/variants";
+
 const projects = [
 	{
 		name: "Vacation of Africa",
@@ -36,7 +39,14 @@ const projects = [
 const ProjectMain = () => {
 	return (
 		<div id="project">
-			<ProjectText />
+			<motion.div
+				variants={fadeIn("down", 0.2)}
+				initial="hidden"
+				whileInView="show"
+				viewport={{ once: false, amount: 0.7 }}
+			>
+				<ProjectText />
+			</motion.div>
 			<div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
 				{projects.map((project, index) => {
 					return (
